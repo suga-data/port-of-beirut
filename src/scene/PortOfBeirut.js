@@ -161,15 +161,18 @@ function Warehouse(props){
       loader.setDRACOLoader(dracoLoader);
     }
   );
+  const color = hovered ? 'magenta' : 'orange'
   useLayoutEffect(() => {
-    // scene.traverse((obj) => obj.isMesh && (obj.receiveShadow = obj.castShadow = true))
-    applyProps(materials, {
-      color: hovered ? 'magenta' : 'orange',
-      // roughness: 0,
-      // normalMap: new THREE.CanvasTexture(new FlakesTexture(), THREE.UVMapping, THREE.RepeatWrapping, THREE.RepeatWrapping),
-      'normalMap-repeat': [40, 40],
-      normalScale: [0.05, 0.05]
-    })
+    scene.traverse((obj) => 
+      obj.isMesh && (obj.receiveShadow = obj.castShadow = true, obj.material.color.set(color) )  
+    )
+    // applyProps(materials, {
+    //   // color: hovered ? 'magenta' : 'orange',
+    //   // roughness: 0,
+    //   // normalMap: new THREE.CanvasTexture(new FlakesTexture(), THREE.UVMapping, THREE.RepeatWrapping, THREE.RepeatWrapping),
+    //   // 'normalMap-repeat': [40, 40],
+    //   // normalScale: [0.05, 0.05]
+    // })
   })
   return (
     <>

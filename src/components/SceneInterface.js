@@ -10,7 +10,7 @@ export default function SceneInterface({selectCamera}) {
 
 
     return (
-        <div style={{position: 'fixed', marginTop: 0, width: '200px', padding: '10px', zIndex: 10, backgroundColor:'rgb(0,0,0,0.4'}}>
+        <div style={{ margin: '10px', position: 'fixed', marginTop: 0, width: '200px', padding: '10px', zIndex: 10, backgroundColor:'rgb(0,0,0,0.4'}}>
             <b style={{color:'white'}}>select camera</b>  
             <li onClick={() => (selectCamera(0))} style={textStyle}>top view</li>
             <li onClick={() => (selectCamera(1))} style={textStyle}>1.0_khouri</li>
