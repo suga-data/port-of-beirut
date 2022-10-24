@@ -1,0 +1,38 @@
+[
+{
+    "id": 0,
+    "name": "Top View",
+    "time": "",
+    "position": { "x": 967.308, "y": 824.5666, "z": 1629.31 }, 
+    "rotation": { "x": 45, "y": 0, "z": 0 },
+    "focalLength": 24,
+    "fov": 80
+  },
+  {
+    "id": 1,
+    "name": "1.0_khouri",
+    "time": "",
+    "position": { "x": 1409.82, "y": 77.8169, "z": 1184.09 }, 
+    "rotation": { "x": 83.8359, "y": 0.561183, "z": 42.8672 },
+    "focalLength": 24,
+    "fov": 50
+  },
+  {
+    "id": 2,
+    "name": "1.0_khouri_2",
+    "time": "",
+    "position": { "x": 1639.63, "y": 61.2004, "z": 1098.18 }, 
+    "rotation": { "x": 88, "y": 0.146064, "z": 402.153 },
+    "focalLength": 29,
+    "fov": 50
+  },
+  {
+    "id": 3,
+    "name": "3.0_sea",
+    "time": "",
+    "position": { "x": 252.429, "y": 20.8718, "z": 2196.86 }, 
+    "rotation": { "x": 94.5777, "y": 238.185, "z": 2.15831 },
+    "focalLength": 40.7,
+    "fov": 50
+  }
+]
